@@ -12,7 +12,7 @@ function WorkspaceHeader({ onSave }: any) {
       </div>
       <div className="flex items-center gap-4">
         <Button
-          className="h-8 text-sm gap-2 bg-yellow-600 hover:bg-yellow-700"
+          className="h-8 text-sm gap-2 bg-teal-600 hover:bg-teal-700"
           onClick={() => onSave()}
         >
           Save <Save className="h-4 w-4" />

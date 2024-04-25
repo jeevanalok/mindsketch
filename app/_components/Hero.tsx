@@ -2,32 +2,29 @@ import React from "react";
 
 function Hero() {
   return (
-    <section className="bg-gray-900 text-white">
-      <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
-        <div className="mx-auto max-w-3xl text-center">
-          <h1 className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
-            Welcome to IdeaForge
-            <span className="sm:block"> Where Ideas Take Shape </span>
+    <section className="bg-slate-100 text-gray-900 h-[90vh] flex flex-col items-center justify-center bg-[radial-gradient(#e5e7eb_3px,transparent_3px)] [background-size:16px_16px]">
+      <div className="mx-auto max-w-screen-xl px-4 py-28 lg:items-center">
+        <div className="mx-auto max-w-3xl text-center ">
+          <h1 className=" bg-gradient-to-r from-rose-700 to-teal-600 bg-clip-text text-5xl font-extrabold text-transparent sm:text-6xl">
+            MindSketch
           </h1>
-
-          <p className="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
-            Unlock the full potential of collaboration and creativity with our
-            intuitive document and diagram editor.
+          <p className="text-3xl font-bold bg-gradient-to-br from-gray-900 to-gray-600 bg-clip-text my-5 ">
+            {" "}
+            Where Ideas Take Shape{" "}
           </p>
+
+          {/* <p className="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
+            Seamlessly blend the fluidity of whiteboarding with intuitive
+            digital organization. <br/> From brainstorming to planning, effortlessly
+            sketch out ideas and map workflows with precision.
+          </p> */}
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <a
-              className="block w-full rounded border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
-              href="#"
+              className="block w-full rounded border border-teal-500 bg-teal-500 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-teal-600 focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+              href="/api/auth/login"
             >
               Get Started
-            </a>
-
-            <a
-              className="block w-full rounded border border-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-blue-600 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
-              href="#"
-            >
-              Learn More
             </a>
           </div>
         </div>
