@@ -1,5 +1,6 @@
 import Footer from "@/app/_components/Footer";
 import Header from "@/app/_components/Header";
+import Image from "next/image";
 import React from "react";
 
 function About() {
@@ -33,11 +34,13 @@ function About() {
                 iterate, and visualize solutions with unparalleled clarity.
               </p>
             </div>
-            <div>
-              <img
-                src="/mindsketch-illustration.png"
+            <div className="w-full">
+              <Image
+                src="/demo.jpg"
                 alt="MindSketch Illustration"
                 className="rounded-lg shadow-lg"
+                width={800}
+                height={800}
               />
             </div>
           </div>
